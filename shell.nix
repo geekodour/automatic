@@ -1,6 +1,5 @@
 let
   pkgs = import <nixpkgs> {};
-  # systemPath = pkgs.systemPath;
   pyPackages = pkgs.python310Packages;
   fhs = pkgs.buildFHSUserEnv {
     name = "normalfsshell";
